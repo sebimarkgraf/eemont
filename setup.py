@@ -25,7 +25,7 @@ setup(
     package_data={"eemont": ["data/*.json"]},
     install_requires=[
         "earthengine-api",
-        "ee_extra",
+        "ee_extra @ git+https://github.com/sebimarkgraf/ee_extra.git@fix/remove-black-dependency",
         "numpy",
         "pandas",
         "python-box",
